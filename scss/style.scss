@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+.nav-item{
+    padding-inline: 0.5rem;
+    margin-inline: 0.25rem;
+}
+
+.btn.btn-primary:hover{
+    box-shadow: 0 0 20px 2px var(--bs-primary);
+}
+
+.hero{
+    background-image: url('../images/pexels-michael-swigunski-6045035.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.tour-img-text{
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.tour-img-card{
+
+    overflow: hidden;
+
+    img{
+        transition: all 0.3s ease-in-out;
+
+    }
+
+    &:hover img{
+        filter: blur(3px) brightness(80%);
+        transform: scale(1.005);
+    }
+
+    &:hover > .tour-img-text{
+        opacity: 1;
+    }
+
+}
+
+.discounts-text{
+    font-family: 'Merienda', cursive;;
+}
+
+@media only screen and (min-width:576px) {
+
+}
+@media only screen and (min-width:768px) {
+    .navbar{
+        padding-inline: 2rem;
+    }
+}
+@media only screen and (min-width:992px) {
+    .navbar{
+        padding-inline: 5rem;
+    }
+}
+@media only screen and (min-width:1200px) {
+    
+}
+@media only screen and (min-width:1400px) {
+    
+}

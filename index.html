@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootsrtap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Wonder Ways</title>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"> <span class="fw-bold">Wonder Ways</span> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" href="#">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" href="#">Hotel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary" href="#">Get Exploration</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container pb-5 px-4">
+                <div class="row">
+                    <div class="col-lg-6 py-5 text-center text-lg-start px-0">
+                        <h1 class="text-info">Wonder Ways: Unlock the Sri Lanka's Beauty with Every Journey</h1>
+                        <p class="lead text-info">Embark on a voyage of discovery with wonder ways, your gateway
+                            to extraordinary adventures and unforgettable experiences. Immerse yourself in the magic of
+                            diverse cultures, breathtaking landscapes, and hidden gems across Sri Lanka.</p>
+                        <button class="btn btn-primary me-3">Get Exploration</button>
+                        <button class="btn btn-info">Read More</button>
+                    </div>
+                </div>
+                <div class="row bg-info rounded-1 py-4">
+                    <div class="col px-md-4">
+                        <div class="row justify-content-xl-center">
+                            <div class="col-md-4 col-lg-4 col-xl-3 py-2 text-center">
+                                <label for="destination" class="text-primary">Your Destination</label>
+                                <select name="" id="destination" class="form-select">
+                                    <option value="">-Select Destination-</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-xl-2 py-2 text-center">
+                                <label for="check-in" class="text-primary">Check In</label>
+                                <input type="date" name="" id="check-in" class="form-control">
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-xl-2 py-2 text-center">
+                                <label for="check-out" class="text-primary">Check Out</label>
+                                <input type="date" name="" id="check-out" class="form-control">
+                            </div>
+                            <div
+                                class="col-md-4 offset-md-2 offset-lg-2 col-lg-4 offset-xl-0 col-xl-2 py-2 text-center">
+                                <label for="children" class="text-primary">Children</label>
+                                <input type="number" name="" id="children" class="form-control">
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-xl-2 py-2 text-center">
+                                <label for="adults" class="text-primary">Adults</label>
+                                <input type="number" name="" id="adults" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-auto pt-3">
+                                <button class="btn btn-secondary text-info">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="featured-tours" class="featured-tours">
+            <div class="container mt-5" style="max-width: 960px;">
+                <div class="row">
+                    <div class="col">
+                        <h6 class="text-primary text-center fs-5">Featured Tours</h6>
+                        <h3 class="fw-medium text-center">Beautiful Places Around Sri Lanka</h3>
+                    </div>
+                </div>
+                <div class="row py-2 mt-2">
+                    <div class="col-lg-4 d-flex justify-content-center position-relative tour-img-card">
+                        <img src="images/pexels-chathura-anuradha-subasinghe-13667937.jpg" alt="" width="300px"
+                            height="auto" class="m-4 rounded-3">
+                        <span class="fw-bold fs-4 text-white position-absolute top-50 tour-img-text">Anuradhapura</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center position-relative tour-img-card">
+                                <img src="images/pexels-lyn-hoare-5042817.jpg" alt="" width="300px" height="auto"
+                                    class="m-4 rounded-3">
+                                <span
+                                    class="fw-bold fs-4 text-white position-absolute top-50 tour-img-text">Hikkaduwa</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center position-relative tour-img-card">
+                                <img src="images/pexels-domenico-bertazzo-4769075.jpg" alt="" width="300px"
+                                    height="auto" class="m-4 rounded-3">
+                                <span
+                                    class="fw-bold fs-4 text-white position-absolute top-50 tour-img-text">Demodara</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center position-relative tour-img-card">
+                        <img src="images/pexels-symeon-ekizoglou-9025503.jpg" alt="" width="300px" height="auto"
+                            class="m-4 rounded-3">
+                        <span class="fw-bold fs-4 text-white position-absolute top-50 tour-img-text">Sigiriya</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="popular-packages" class="popular-packages">
+            <div class="container mb-7">
+                <div class="row">
+                    <div class="col mt-5 mb-6">
+                        <h3 class="fw-medium text-center">Select Offers For Traveling</h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center g-4">
+                    <div class="col-sm-4 col-md-3 col-lg-2 text-center">
+                        <h1 class="fa-solid fa-landmark-dome text-primary"></h1>
+                        <h5 class="text-primary">Different Cities</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2 text-center">
+                        <h1 class="fa-solid fa-bus-simple text-primary"></h1>
+                        <h5 class="text-primary">Bus Tours</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2 text-center">
+                        <h1 class="fa-solid fa-utensils text-primary"></h1>
+                        <h5 class="text-primary">Food Tours</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2 text-center">
+                        <h1 class="fa-solid fa-umbrella-beach text-primary"></h1>
+                        <h5 class="text-primary">Summer Rest</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2 text-center">
+                        <h1 class="fa-solid fa-ship text-primary"></h1>
+                        <h5 class="text-primary">Ship Cruises</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2 text-center">
+                        <h1 class="fa-solid fa-mountain text-primary"></h1>
+                        <h5 class="text-primary">Mountain Tours</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="discount" class="discount">
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col mt-2 mb-5">
+                        <h3 class="fw-medium text-center">Special Offers</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col position-relative">
+                        <h2 class="fw-bold display-1 text-black-50 text-center">DISCOVER</h2>
+                        <span
+                            class="text-warning fs-1 position-absolute start-50 top-50 discounts-text">Islandwide</span>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-lg-5">
+                        <h2 class="display-6 text-center my-4 fw-bold text-bg-warning p-2">Get 30% OFF!</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 text-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatibus facere
+                            dicta culpa, tempore a ad vitae iure quam eos atque dolore praesentium deleniti perferendis
+                            sit. Distinctio id tempora vero.
+                        </p>
+                        <button class="btn btn-outline-warning fw-bold">Get Offer !</button>
+                        <a href="" class="link-primary mx-4">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary">
+        <div class="container py-7">
+            <div class="row">
+                <div class="col-12 text-center pt-3">
+                    <h2 class="fw-bold text-white">Wonder Ways</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <a href="" class="link-info">Privacy Policy</a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="" class="link-info">Coockie Policy</a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="" class="link-info">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
